@@ -1099,6 +1099,7 @@ func getSupportedExtensions() map[string][]string {
 	return map[string][]string{
 		"usbguard":     {"usbguard"},
 		"kernel-devel": {"kernel-devel", "kernel-headers"},
+		"qemu-img":     {"qemu-img"},
 	}
 }
 
